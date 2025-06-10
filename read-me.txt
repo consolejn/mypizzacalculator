@@ -1,0 +1,28 @@
+1a. User Read-Me Instructions
+
+1.1a Usage Statement
+
+This software is designed for authorized use by James'Pizza sales representatives to calculate promotional pizza prices efficiently. Unauthorized use, modification or redistribution of this application without permission is prohibited. This application is licensed under James' Pizzas internal software usage policy.
+
+1.2a Version and Date Information
+
+•	Software Name: Pizza Bundle Price Calculator
+•	Version: 1.0
+•	Release Date: 25/03/2025
+•	Author: James Nicholson
+•	Company: James' Pizzas
+
+1.3a Installation Instructions
+
+This application is a simple web-based tool that does not require installation. To run the application:
+1.	Ensure you have a web browser installed (Google Chrome, Mozilla Firefox or Microsoft Edge recommended).
+2.	Download the following files and store them in the same directory:
+o	PizzaCalculator.html (main webpage)
+o	PizzaBundleCalculator.js (JavaScript logic for price calculation)
+3.	Open the PizzaCalculator.html file in a web browser to access the calculator.
+
+1.4a Special Instructions
+
+•	Enter a valid number (1 or more) in the input field.
+•	Click the “Calculate Total Cost” button to see the calculated price.
+•	Ensure JavaScript is enabled in your browser for proper functionality.

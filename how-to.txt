@@ -1,0 +1,24 @@
+2b. User How-To Instructions
+
+2.1b Program Purpose and Functionality
+
+James' Pizzas Price Calculator is a web-based tool designed to help sales staff to quickly and accurately determine the total cost of pizzas during a promotional period. 
+It applies the bundle prices and calculates the lowest possible cost for orders.
+
+2.2b Operating Instructions
+
+1. Open the PizzaCalculator.html file in a supported web browser.
+2. Locate the input field labelled “Enter number of pizzas wanted.”
+3. Type the number of pizzas you wish to order.
+4. Click the “Total cost” button.
+5. The total price will be displayed on the webpage below the form.
+
+2.3b Required Inputs
+
+• The user must enter a whole number (e.g., 1, 2, 3, etc.).
+• Decimal numbers, negative numbers, or non-numeric characters should not be entered.
+
+2.4b Expected Outputs
+
+• The program will return a message displaying the total cost of the pizzas based on the best available bundle pricing.
+• Example output: “Total cost for 5 pizzas is: $26.00”

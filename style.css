@@ -1,0 +1,196 @@
+/* General page styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 420px;
+    width: 100%;
+}
+
+h1 {
+    color: #e4572e;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+    margin-top: 0;
+}
+
+/* Promotional Deals Section */
+.promo-deals {
+    margin: 1.5rem 0 2rem;
+    text-align: left;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 1.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #e4572e;
+}
+
+.promo-deals h2 {
+    color: #e4572e;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.promo-deals p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1.2rem;
+}
+
+.deal {
+    padding: 0.8rem 0;
+    border-bottom: 1px dashed #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.deal:last-child {
+    border-bottom: none;
+}
+
+.deal strong {
+    font-weight: 600;
+}
+
+/* Description text styling */
+p.description {
+    font-size: 1rem;
+    color: #555;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+/* Form styling */
+form {
+    margin-top: 1.5rem;
+}
+
+/* Label styling - centered as requested */
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Remove red border on focus for empty required fields */
+/* Don't show red on focus alone */
+input[type="number"]:focus:invalid:placeholder-shown {
+    border-color: #ddd;
+    box-shadow: none;
+}
+
+/* Show red only when user entered something and it's invalid */
+input[type="number"]:not(:placeholder-shown):invalid {
+    border: 2px solid #e4572e;
+    background-color: #fff5f5;
+    box-shadow: none;
+}
+
+    input[type="number"]:not(:placeholder-shown):valid {
+            border: 2px solid #4CAF50;
+            background-color: #f7fbf7;
+            box-shadow: none; /* remove yellow outline */
+        }
+        
+    
+
+/* Input styling */
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    margin-bottom: 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Default state */
+input[type="number"] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Focus state */
+input[type="number"]:focus {
+    outline: none;
+    border-color: #e4572e;
+    box-shadow: 0 0 0 3px rgba(228, 87, 46, 0.2);
+}
+
+/* Only show valid/invalid styling after user interaction and content entered */
+input[type="number"]:not(:placeholder-shown):valid {
+    border: 2px solid #4CAF50;
+    background-color: #f7fbf7;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #e4572e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 4px 10px rgba(228, 87, 46, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #d14624;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(228, 87, 46, 0.25);
+}
+
+input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Message styling */
+#message {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 3px solid #b2f0a2;
+    display: none;
+}
+
+/* Remove number input arrows */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+

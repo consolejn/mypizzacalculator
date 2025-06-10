@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PizzasOnly Ordering Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="PizzaBundleCalculator.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pizza Bundle Calculator</h1>
+        
+        <!-- Promotional Deals Section -->
+        <section class="promo-deals">
+            <h2>🍕 Promotional Deals </h2>
+            <p>Check out our bundle offers below:</p>
+            <div class="deal">
+                <strong>1 Pizza:</strong> <span>$6.45</span>
+            </div>
+            <div class="deal">
+                <strong>2 Pizzas:</strong> <span>$12.00</span>
+            </div>
+            <div class="deal">
+                <strong>3 Pizzas:</strong> <span>$14.00</span>
+            </div>
+        </section>
+        
+        <p class="description">Enter the number of pizzas you'd like to order and we'll calculate the best value bundle for you!</p>
+        
+        <form id="orderForm" onsubmit="return checkQuantity()">
+            <label for="quantity">Number of pizzas:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required placeholder="Enter here" autocomplete="off">
+            <input type="submit" value="Calculate Total Cost">
+        </form>
+        
+        <div id="message"></div>
+    </div>
+</body>
+</html>
