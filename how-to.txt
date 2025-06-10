@@ -7,7 +7,7 @@ It applies the bundle prices and calculates the lowest possible cost for orders.
 
 2.2b Operating Instructions
 
-1. Open the PizzaCalculator.html file in a supported web browser.
+1. Open the index.html file in a supported web browser.
 2. Locate the input field labelled “Enter number of pizzas wanted.”
 3. Type the number of pizzas you wish to order.
 4. Click the “Total cost” button.
