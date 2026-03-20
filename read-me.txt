@@ -26,3 +26,8 @@ o	PizzaBundleCalculator.js (JavaScript logic for price calculation)
 •	Enter a valid number (1 or more) in the input field.
 •	Click the “Calculate Total Cost” button to see the calculated price.
 •	Ensure JavaScript is enabled in your browser for proper functionality.
+
+1.5a
+
+•	Live page demo
+https://consolejn.github.io/mypizzacalculator/
